@@ -1,3 +1,41 @@
-body    {
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKj0-grpmwiB0In-hXxsRWgVp5UIao2jdkkdAnALpm0smCovmNMQ")
+body {
+    font-family: segoe-script;
+    background: url("http://getwallpapers.com/wallpaper/full/9/e/b/1055353-cute-computer-backgrounds-1920x1200-hd.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+
+
+
+.hometitle  {
+    border: 5px solid grey;
+    margin-top:50px;
+    padding: 20px;
+    position: center;
+    color:white;
+    font-size: 2em;
+    background-color:rosybrown;
+    -webkit-animation: colors 5s infinite;
+    animation: colors 5s infinite;
+}
+
+@-webkit-keyframes colors {
+    50% {
+      background-color: pink;
+    }
+  }
+
+@keyframes colors {
+    50% {
+      background-color: pink;
+    }
+  }
+
+.websites-title {
+    border-left: 5px solod grey;
+    padding: 20px 40px 20px 40px;
+    color: white;
+    background-color: rosybrown;
 }

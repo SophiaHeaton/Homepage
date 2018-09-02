@@ -1,0 +1,16 @@
+$main-color: pink;
+
+
+
+body    {
+    @include background;
+    font-size: 1.5em; 
+    color: purple;
+    font-family: segoe-script;
+    background: url("https://static.tumblr.com/bfd42c6e12c4a48a0630ca3b0fcd1d15/vt0qhql/KSbnz4jg0/tumblr_static_tumblr_static_filename_640.jpg") no-repeat center
+}
+
+h1{
+    color: $main-color;
+    
+}
