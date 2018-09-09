@@ -1,41 +1,121 @@
 body {
-    font-family: segoe-script;
-    background: url("http://getwallpapers.com/wallpaper/full/9/e/b/1055353-cute-computer-backgrounds-1920x1200-hd.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
+  font-family: 'Noto Sans', sans-serif;
+  background: url("https://www.pixelstalk.net/wp-content/uploads/2016/02/Pokemon-Backgrounds-Widescreen.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
 
-
-
+.line {
+  background-color:#ff0202;
+}
 
 .hometitle  {
-    border: 5px solid grey;
-    margin-top:50px;
-    padding: 20px;
-    position: center;
-    color:white;
-    font-size: 2em;
-    background-color:rosybrown;
-    -webkit-animation: colors 5s infinite;
-    animation: colors 5s infinite;
+  background-color:#f2e4de;
+  border-top: 5px solid #def1f2;
+  border-left: 5px solid #def1f2;
+  color:white;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  font-size: 2em;
+  margin-top:50px;
+  padding: 20px;
+  width: 90%;
+  height: 35px;
+  position: center;
+  -webkit-animation: colors 60s infinite;
+  animation: colors 60s infinite;
 }
 
 @-webkit-keyframes colors {
-    50% {
-      background-color: pink;
-    }
+  50% {
+    background-color: #deffa3;
   }
+}
 
 @keyframes colors {
-    50% {
-      background-color: pink;
-    }
+  50% {
+    background-color: #deffa3;
   }
+}
 
 .websites-title {
-    border-left: 5px solod grey;
-    padding: 20px 40px 20px 40px;
-    color: white;
-    background-color: rosybrown;
+  background-color:#f2e4de;
+  border-left: 3px solid #def1f2;
+  color:white;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  font-size: 1em;
+  width: 50%;
+  padding: 20px 40px 20px 40px;
+  font-weight: 600;
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: uppercase;
+  text-decoration: underline line-through overline;
+  text-shadow: 5px 0 1px #a9d4d6;
+}
+
+.reminder {
+  font-size: 1em;
+  list-style: square;
+}
+
+.lol  {
+  color:white;
+  font-size: 1em;
+  background-color:rosybrown;
+  border-left: 5px solid grey;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin-top:50px;
+  padding: 20px;
+  transition: background-color 500ms ease-out 1s;
+  -webkit-transition: background-color 500ms ease-out 1s;
+  -moz-transition: background-color 500ms ease-out 1s;
+  -o-transition: background-color 500ms ease-out 1s;
+}
+
+.lol:hover  {
+  background-color:pink;
+  color: white;
+  cursor: pointer;
+}
+
+.dev  {
+  background-color:rosybrown;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 20px;
+  margin: 50px;
+  font-size: 1.2em;
+  border-left: 5px solid grey;
+  width: 200px;
+}
+
+#dev  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: pink;
+}
+
+a:active {
+  color: pink;
 }
