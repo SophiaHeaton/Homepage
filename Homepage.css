@@ -58,6 +58,13 @@ body {
   text-shadow: 5px 0 1px #a9d4d6;
 }
 
+.stickers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: left;
+}
+
 .reminder {
   font-size: 1em;
   list-style: square;
