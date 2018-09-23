@@ -79,11 +79,17 @@ body {
 }
 
 .images {
-  background-color:#f2e4de;
-  padding: 15px;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
+ 
+}
+
+#images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .reminder {
