@@ -8,8 +8,8 @@ body {
 
 .hometitle  {
   background-color:#f2e4de;
-  border-top: 5px solid #44635e;
-  border-left: 5px solid #44635e;
+  border-top: 15px solid #44635e;
+  border-left: 15px solid #44635e;
   color:white;
   border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -38,7 +38,7 @@ body {
 
 .websites-title {
   background-color:#f2e4de;
-  border-left: 3px solid #def1f2;
+  border-left: 9px solid #44635e;
   color:white;
   border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -56,7 +56,7 @@ body {
 
 .websites {
   background-color:#f2e4de;
-  border-left: 3px solid #def1f2;
+  border-left: 8px solid #44635e;
   color:white;
   border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -78,11 +78,12 @@ body {
   align-items: center;
 }
 
-.stickers {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: left;
-  align-items: left;
+.images {
+  background-color:#f2e4de;
+  padding: 15px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
 }
 
 .reminder {
@@ -93,8 +94,8 @@ body {
 .lol  {
   color:white;
   font-size: 1em;
-  background-color:rosybrown;
-  border-left: 5px solid grey;
+  background-color:#f2e4de;
+  border-left: 9px solid #44635e;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -113,14 +114,14 @@ body {
 }
 
 .dev  {
-  background-color:rosybrown;
+  background-color:#f2e4de;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
   padding: 20px;
   margin: 50px;
   font-size: 1.2em;
-  border-left: 5px solid grey;
+  border-left: 9px solid #44635e;
   width: 200px;
 }
 
@@ -145,4 +146,42 @@ a:hover {
 
 a:active {
   color: pink;
+}
+
+table   {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#poketable  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokepic  {
+  width: 70px;
+  Height: 70px;
+}
+
+th  {
+  background-color:#e8fbff;
+  color:#67797c;
+}
+
+tr:nth-child(odd)  {
+  background-color: #e8fbff;
+  color:#67797c;
+}
+
+tr:nth-child(even)  {
+  background-color: #f2e4de;
+  color:#67797c;
+}
+
+td, th  {
+  padding: 15px;
+  text-align: center;
+  border: 2px solid #44635e;
 }
