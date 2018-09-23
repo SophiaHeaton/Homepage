@@ -1,19 +1,19 @@
 body {
   font-family: 'Noto Sans', sans-serif;
-  background: url("https://www.pixelstalk.net/wp-content/uploads/2016/02/Pokemon-Backgrounds-Widescreen.png") no-repeat center center fixed;
+  background: url("https://www.destructoid.com//ul/415593-AR2.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
 }
 
-.line {
-  background-color:#ff0202;
+hr {
+  color:#ff0202;
 }
 
 .hometitle  {
   background-color:#f2e4de;
-  border-top: 5px solid #def1f2;
-  border-left: 5px solid #def1f2;
+  border-top: 5px solid #44635e;
+  border-left: 5px solid #44635e;
   color:white;
   border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -30,13 +30,13 @@ body {
 
 @-webkit-keyframes colors {
   50% {
-    background-color: #deffa3;
+    background-color: #eafcf9;
   }
 }
 
 @keyframes colors {
   50% {
-    background-color: #deffa3;
+    background-color: #eafcf9;
   }
 }
 
@@ -48,7 +48,7 @@ body {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   font-size: 1em;
-  width: 50%;
+  width: 80%;
   padding: 20px 40px 20px 40px;
   font-weight: 600;
   font-style: italic;
@@ -56,6 +56,30 @@ body {
   text-transform: uppercase;
   text-decoration: underline line-through overline;
   text-shadow: 5px 0 1px #a9d4d6;
+}
+
+.websites {
+  background-color:#f2e4de;
+  border-left: 3px solid #def1f2;
+  color:white;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  font-size: 1em;
+  width: 25%;
+  height: 40px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 20px;
+  margin: 10px;
+}
+
+#websites {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .stickers {
