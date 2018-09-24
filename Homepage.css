@@ -6,23 +6,10 @@ body {
   background-size: cover;
 }
 
-.hometitle  {
-  background-color:#f2e4de;
-  border-top: 15px solid #44635e;
-  border-left: 15px solid #44635e;
-  color:white;
-  border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  font-size: 2em;
-  margin-top:50px;
-  padding: 20px;
-  width: 90%;
-  height: 35px;
-  position: center;
-  -webkit-animation: colors 60s infinite;
-  animation: colors 60s infinite;
-}
+
+
+/*Homepage Title and animation*/
+
 
 @-webkit-keyframes colors {
   50% {
@@ -36,10 +23,33 @@ body {
   }
 }
 
-.websites-title {
+.hometitle  {
+  background-color:#f2e4de;
+  border-top: 15px solid #44635e;
+  border-left: 15px solid #44635e;
+  color:#67797c;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  font-size: 2em;
+  margin-top:50px;
+  padding: 20px;
+  width: 90%;
+  height: 35px;
+  position: center;
+  -webkit-animation: colors 60s infinite;
+  animation: colors 60s infinite;
+}
+
+
+
+/*Webstites and titles*/
+
+
+.title {
   background-color:#f2e4de;
   border-left: 9px solid #44635e;
-  color:white;
+  color:#67797c;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -54,10 +64,22 @@ body {
   text-shadow: 5px 0 1px #a9d4d6;
 }
 
+.TableTitle {
+  background-color:#f2e4de;
+  border-left: 9px solid #44635e;
+  color:#67797c;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  font-size: 2em;
+  width: 25%;
+  padding: 20px 40px 20px 40px;
+}
+
 .websites {
   background-color:#f2e4de;
   border-left: 8px solid #44635e;
-  color:white;
+  color:#67797c;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -78,6 +100,11 @@ body {
   align-items: center;
 }
 
+
+
+/*My Pictures*/
+
+
 .images {
   border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -92,43 +119,20 @@ body {
   align-items: center;
 }
 
-.reminder {
-  font-size: 1em;
-  list-style: square;
-}
 
-.lol  {
-  color:white;
-  font-size: 1em;
-  background-color:#f2e4de;
-  border-left: 9px solid #44635e;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  margin-top:50px;
-  padding: 20px;
-  transition: background-color 500ms ease-out 1s;
-  -webkit-transition: background-color 500ms ease-out 1s;
-  -moz-transition: background-color 500ms ease-out 1s;
-  -o-transition: background-color 500ms ease-out 1s;
-}
 
-.lol:hover  {
-  background-color:pink;
-  color: white;
-  cursor: pointer;
-}
+/*Buttons and links*/
+
 
 .dev  {
   background-color:#f2e4de;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  padding: 20px;
+  color:#67797c;
   margin: 50px;
-  font-size: 1.2em;
+  font-size: 1.5em;
   border-left: 9px solid #44635e;
+  height: 70px;
   width: 200px;
+  cursor: pointer;
 }
 
 #dev  {
@@ -139,20 +143,25 @@ body {
 }
 
 a:link {
-  color: white;
+  color:#67797c;
 }
 
 a:visited {
-  color: white;
+  color:#67797c;
 }
 
 a:hover {
-  color: pink;
+  color: #416091;
 }
 
 a:active {
-  color: pink;
+  color: #416091;
 }
+
+
+
+/*Table and pokemon*/
+
 
 table   {
   width: 100%;
@@ -190,4 +199,38 @@ td, th  {
   padding: 15px;
   text-align: center;
   border: 2px solid #44635e;
+}
+
+/*Assignments.html*/
+
+
+.lol  {
+  color:#67797c;
+  font-size: 1em;
+  background-color:#f2e4de;
+  border-left: 9px solid #44635e;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin-top:50px;
+  padding: 20px;
+  transition: background-color 500ms ease-out 1s;
+  -webkit-transition: background-color 500ms ease-out 1s;
+  -moz-transition: background-color 500ms ease-out 1s;
+  -o-transition: background-color 500ms ease-out 1s;
+}
+
+.lol:hover  {
+  background-color:pink;
+  color: #67797c;
+  cursor: pointer;
+}
+
+
+/*Reminders.html*/
+
+
+.reminder {
+  font-size: 1em;
+  list-style: square;
 }
